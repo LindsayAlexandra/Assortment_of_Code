@@ -1,0 +1,604 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*font styles
+font-family: 'Spicy Rice', cursive;
+font-family: 'Fruktur', cursive;
+font-family: 'Croissant One', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Poller One', cursive;
+font-family: 'Asset', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Seymour One', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Wendy One', sans-serif;
+*/
+
+
+/*General Selectors*/
+
+html {}
+
+body {
+	background: url(planning/background.jpg);
+	width: 1000px;
+	height: 1500px;
+
+}
+
+h1 {
+	font-size: 36px;
+	color: rgba(51,51,51,1);
+	text-shadow: 5px 5px 5px #7EBCE3, 3px 3px 3px #D80451;
+	margin-top: -100px;
+	font-variant: small-caps;
+	font-family: "Croissant One", cursive;
+	font-style: italic;
+	word-spacing: 1.5px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	font-weight: bolder;
+	margin-left: -2em;
+}
+h2 {
+	font-family: 'Wendy One', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	}
+
+h3 {
+	font-family: "Spicy Rice", cursive;
+	font-size: 36px;
+	color: rgba(217,5,82,1);
+	text-shadow: 3px 3px 3px #333333;
+	text-align: center;
+	padding: 10px;
+	}
+h4 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-shadow: 3px 3px 3px rgba(255,255,255,1);
+	text-align: center;
+	margin-top: ;
+	margin-bottom: ;
+	margin-left: -13em;
+	}
+h5 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-variant: small-caps;
+	text-align: center;
+	color: rgba(217,202,163,1);
+	margin-bottom: -10px;
+}
+
+p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+/*footer {
+	width: 800px;
+	height: 100px;
+	text-align: center;
+	background-color: rgba(46,179,224,1);
+	margin: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Navigation*/
+#navlist
+{
+	list-style-type: none;
+	color: rgba(255,255,255,1);
+	background-color: #7E8C4E;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 14px;
+	line-height: 2em;
+	font-variant: small-caps;
+	font-weight: 900;
+	letter-spacing: 1.5px;
+}
+
+#active:hover li { display: block; }
+#active li { display: none; }
+
+#navcontainer
+{
+	width: 150px;
+	background-color: #7E8C4E;
+}
+
+#navcontainer a
+{
+	color: rgba(255,255,255,1);
+	background-color: #7E8C4E;
+	width: 125px;
+	display: block;
+	margin-left: -10px;
+}
+
+#navcontainer a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#navcontainer a:visited
+{
+	color: rgba(217,202,163,1);
+	text-decoration: none;
+	background-color: #7E8C4E;
+}
+
+#navcontainer a:active
+{
+color: white;
+text-decoration: none;
+text-shadow: 2px 2px 1px #333333, 3px 3px 3px   #7E8C4E;
+
+}
+
+#navcontainer a:hover
+{
+	color: rgba(230,5,97,1);
+	text-shadow: 2px 2px 1px #333333, 3px 3px 3px  #7E8C4E;
+	text-decoration: none;
+	margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div ids*/
+
+#wrapper {
+	width: 850px;
+	background-color: rgba(255,255,255,1);
+	box-shadow: 3px 3px 3px #000000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 100px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	height: 900px;
+}
+#header {
+	width: 825px;
+	height: 125px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	
+}
+
+
+#social {
+	float: right;
+	height: 100px;
+	width: ;
+	padding: 5px;
+	margin-left: ;
+	margin-top: -95px;
+	margin-right: ;
+	margin-bottom: -30px;
+}
+
+#leftcolumn {
+	width: 175px;
+	height: 600px;
+	float: left;
+	background-color: #7E8C4E;
+	box-shadow: 3px 3px 3px #666666;
+	-moz-border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+			}
+
+#rightcolumn {
+	width: 225px;
+	height: 600px;
+	float: right;
+	margin-bottom: 10px;
+	background-color: rgba(255,255,255,1);
+	margin-top: 10px;
+	box-shadow: 3px 3px 3px #666666;
+	-moz-border-radius: 10px;
+	margin-right: 18px;
+}
+
+
+
+
+#main {
+	width: 400px;
+	height: 500px;
+	float: left;
+	background-color: rgb(217,202,163);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 3px 3px 3px #666666;
+	-moz-border-radius: 10px;
+	margin-left: 10px;
+}
+#amenities {
+	list-style-type: none;
+	text-align: center;
+	color: rgba(51,51,51,1);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
+	width: 400px;
+	margin-top: 30em;
+	margin-left: -3em;
+}
+#footer {
+	width: 700px;
+	height: 50px;
+	text-align: center;
+	background-color: rgba(255,255,255,1);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	margin-right: 10px;
+	margin-left: 150px;
+	padding-top: 10px;
+	margin-top: -110px;
+}
+
+/*Social*/
+#social {
+
+}
+
+/* links */
+
+a {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-weight: bold;
+	color: rgba(108,221,255,1);
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: rgba(0,0,0,1);
+}
+a:hover {
+	text-decoration: underline;
+	color: rgba(217,5,82,1);
+	letter-spacing: 3px;
+	
+}
+a:active {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+/*div classes*/
+
+.news {
+	width: 250px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+
+.events {}
+
+.extlinks {
+	font-size: 12px;
+	color: rgba(217,202,163,1);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	width: 125px;
+	border: medium solid rgba(217,202,163,1);
+	height: 130px;
+	padding: 5px;
+	margin-top: 25px;
+	background-color: rgba(255,255,255,1);
+	box-shadow: 5px 5px 5px #7EBCE3, 3px 3px 3px #D80451;
+	margin-left: 15px;
+}
+.extlinks li {
+	text-decoration: none;
+	list-style-type: none;
+	}
+.head {
+	-webkit-box-shadow: 3px 3px 3px #7EBCE3;
+    box-shadow: 3px 3px 3px #7EBCE3;
+	opacity: 0.5;
+	}
+.food {
+	padding: 20px;
+	box-shadow: 5px 5px 5px #666666;
+}
+
+.iframe {
+	margin-left: 225px;
+
+}
+.amenities {
+	width: 600px;
+	margin-left: 400px;
+	float: left;
+	height: 600px;
+	margin-top: -1150px;
+}
+/*wedding gallery*/
+
+#photo {
+	width: 600px;
+	height: 600px;
+	background-image: url(originals/wixbackground2.jpg);
+	margin-left: 200px;
+	margin-top: -400px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 5px #333333;
+	padding: 5px;
+	}
+
+  .photos img {
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 200px;
+}
+
+.photos img:nth-of-type(1) {
+    left: 50px;
+    top: 50px;
+}
+ 
+.photos img:nth-of-type(2) {
+    left: 150px;
+    top: 100px;
+}
+ 
+.photos img:nth-of-type(3) {
+    left: 250px;
+    top: 50px;
+}
+ 
+.photos img:nth-of-type(4) {
+    left: 350px;
+    top: 150px;
+}
+ 
+.photos img:nth-of-type(5) {
+    left: 450px;
+    top: 50px;
+}
+
+.photos img:nth-of-type(1) {
+    left: 50px;
+    top: 50px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+ 
+.photos img:nth-of-type(2) {
+    left: 150px;
+    top: 100px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+ 
+.photos img:nth-of-type(3) {
+    left: 250px;
+    top: 50px;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+ 
+.photos img:nth-of-type(4) {
+    left: 350px;
+    top: 150px;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+ 
+.photos img:nth-of-type(5) {
+    left: 450px;
+    top: 50px;
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+.photos img:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    z-index: 10;
+}
+
+.photos img:hover {
+    -webkit-transform: rotate(380deg) scale(1);
+    -moz-transform: rotate(380deg) scale(1);
+    -o-transform: rotate(380deg) scale(1);
+    transform: rotate(380deg) scale(1);
+    z-index: 10;
+}
+
+.photos img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.photos img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 10px 10px 30px 10px;
+    background: rgba(126,140,78,1);
+    border: inset 2px #333333;
+}
+
+/*contact form*/
+
+form {
+	background-color:;
+	font-family:;
+	width: 275px;
+	padding: 10px;
+	margin-left: 55px;
+	margin-top: 75px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: rgba(255,255,255,1);
+	border: medium solid rgba(126,140,78,1);
+	-moz-box-shadow: 0 0 5px 5px #F2E9BD;
+	-webkit-box-shadow: 0 0 5px 5px #F2E9BD;
+	box-shadow: 0 0 5px 5px #F2E9BD;
+}
+form fieldset {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: rgba(255,255,255,1);
+}
+
+label {
+	float: left;
+	width: 200;
+	display: block;
+	clear: left;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+table {
+	border: medium solid rgba(223,42,109,1);
+	border-collapse: collapse;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	box-shadow: 5px 5px 5px #F8D6E4;
+}
+table th {
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: rgba(255,255,255,1);
+	font-size: 12px;
+}
+input, textarea {
+	margin-top: 10px;
+	display: block;
+}
+#mySubmit { 
+	margin-left: 150px;
+}
+
+/*images rooms & suites*/
+
+.gallery {
+	width: 600px;
+	margin-top: 50px;
+	margin-left: 250px;
+	height: 600px;
+	list-style-type: none;
+	margin-bottom: 100px;
+
+}
+
+.gallery img {
+	padding: 5px;
+
+}
+.gallery figure {
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	margin: 5px;
+	position: relative;
+} 
+figcaption {
+	position: absolute;
+	top: 15%;
+	bottom: 15%;
+	left: 0;
+	right: 0;
+	background-color: rgba(131,225,255,1);
+	background-color: rgba(131,225,255,1);
+	padding: 10px;
+	font-family: "Wendy One", sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+
+
+
+
+	color: ;
+	opacity: 0;
+	-webkit-transition: opacity .75s ease-out;
+	-moz-transition: opacity .75s ease-out;
+	-o-transition: opacity .75s ease-out;
+	transition: opacity .75s ease-out;
+	text-align: center;
+	height: 25px;
+	width: 150px;
+}
+figure:hover figcaption {
+		opacity: 1;
+}

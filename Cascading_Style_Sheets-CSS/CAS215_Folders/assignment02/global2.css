@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #FFFFFF; 
+	color: #000000;
+	font-family: Ariel, Helvetica, sans-serif;
+}
+#release {
+	text-align: center;
+	font-variant: small-caps;
+	border-top-width: thin;
+	border-right: 10px solid #000;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: rgba(0,0,0,1);
+	border-right-color: rgba(0,0,0,1);
+	border-bottom-color: rgba(0,0,0,1);
+	border-left-color: rgba(0,0,0,1);
+}
+#contact-info {
+	text-align: right;
+	border-right: 10px solid #000;
+	padding: 2px;
+	color: #000080;
+	font-size: 1em;
+	font-style: italic
+}
+#footer {
+	color: #959595;
+}
+
+div#contact-info first-line: {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+h1 {
+	padding-left: 3%;
+	font-size: 36px;
+}
+h2 {
+	font-size: x-large;
+	font-style: italic;
+	margin: auto;
+	text-align: center;
+}
+#footer a:hover {
+	font-weight: 900;
+	color: #000;
+	background-color: #fff;
+}
+a:hover {
+	background-color: #0000ff;
+	color: #ffffff;
+}
+#footer a {
+	color: #959595;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+p {
+	text-align: justify;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+
+.company-name {
+	font-weight: bold;
+	color: #000000;
+}
+p#summary {
+	padding: 3px;
+	border: 2px solid #008000;
+	border-left: 10px solid #008000;
+	background-color: #FFFBC6;
+	font-size: .8em;
+}
+div#footer {
+	text-align: right;
+	color: #ACACAC;
+}
