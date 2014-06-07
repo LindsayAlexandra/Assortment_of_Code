@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width: 900px;
+	background: url(twocolor.gif) repeat-x, url(bg2_image2.png) repeat;
+}
+h1 {
+	background-color: #cce6b3;
+	opacity: 0.6;
+	font-size: 4em;
+	color: #5c743d;
+	text-align: center;
+	margin-top: 20px;
+	font-variant: small-caps;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	width: 800px;
+	margin-left: 3.5em;
+	border: medium groove #99cc66;
+	padding:0;
+	
+}
+/*
+	tswtabs.css		1.0.6
+	Please use the CSS Menu Button Wizard at
+		http://www.thesitewizard.com/wizards/css-menu-buttons.shtml
+	to generate your own customized menu buttons.
+*/
+
+#tswcsstabs ul {
+	list-style: none;
+	display: inline;
+	float: right;
+	margin-top: 3px;
+	margin-right: 6.5em;
+	margin-bottom: 3px;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 3px;
+	padding-left: 0;
+}
+#tswcsstabs ul li {
+	margin: 0 ;
+	padding: 0 ;
+	display: inline ;
+	text-align: center ;
+	list-style: none ;
+	font-family: Arial, Helvetica, sans-serif ;
+}
+#tswcsstabs li a {
+	color: #cce6b3 ;
+	background-color: #5c743d ;
+	border: 1px outset #99cc66 ;
+	padding: 8px ;
+	text-decoration: none ;
+	display: inline ;
+}
+#tswcsstabs li a:hover {
+	color: #ffffff ;
+	background-color: #cb98fe ;
+}

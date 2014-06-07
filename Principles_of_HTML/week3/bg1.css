@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width: 900px;
+	height: 500px;
+	background: url(twocolor.gif) left repeat-y, url(YSycec.png) right top repeat;
+}
+h2 {
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+}
+#tabsC {
+	font-size: large;
+	line-height: normal;
+	padding-bottom: 6%;
+	padding-top: 1.75%;
+	margin-left: 6%;
+	margin-top: 10%;
+	background-color: #5c743d;
+	color: #cce6b3;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	border: medium solid #cce6b3;
+	text-align: center;
+	padding-left: 10%;
+	margin-right: -10%;
+}
+#tabsC ul {
+	margin: 0;
+	padding: 10px 10px 0 50px;
+	list-style: none;
+}
+#tabsC li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+#tabsC a {
+	float: left;
+	background: url("tableftC.gif") no-repeat left top;
+	margin: 0;
+	padding: 0 0 0 4px;
+	text-decoration: none;
+}
+#tabsC a span {
+	float: left;
+	display: block;
+	background: url("tabrightC.gif") no-repeat right top;
+	padding: 5px 15px 4px 6px;
+	color: #cce6b3;
+}
+#tabsC a span {
+	float: none;
+}
+#tabsC a:hover span {
+	color: #CB98FE;
+}
+#tabsC a:hover {
+	background-position: 0% -42px;
+}
+#tabsC a:hover span {
+	background-position: 100% -42px;
+}
+#tabsC #current a {
+	background-position: 0% -42px;
+}
+#tabsC #current a span {
+	background-position: 100% -42px;
+}
+p {
+	background-color: #CB98FE;
+	opacity: 0.7;
+	font-size: 18px;
+	color: rgba(0,0,0,1);
+	padding: 10px;
+	margin-left: 100px;
+	font-weight: bolder;
+	text-align: center;
+	vertical-align: baseline;
+	width: 800px;
+	height: 500px;
+	padding-top: 3em;
+	padding-right: 1em;
+	padding-bottom: 3em;
+	padding-left: 1em;
+}

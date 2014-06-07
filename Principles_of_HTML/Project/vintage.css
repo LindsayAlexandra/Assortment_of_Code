@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: linear-gradient(right bottom, rgb(126,217,208) 24%, rgb(242,172,172) 54%, rgb(217,72,99) 71%);
+background-image: -o-linear-gradient(right bottom, rgb(126,217,208) 24%, rgb(242,172,172) 54%, rgb(217,72,99) 71%);
+background-image: -moz-linear-gradient(right bottom, rgb(126,217,208) 24%, rgb(242,172,172) 54%, rgb(217,72,99) 71%);
+background-image: -webkit-linear-gradient(right bottom, rgb(126,217,208) 24%, rgb(242,172,172) 54%, rgb(217,72,99) 71%);
+background-image: -ms-linear-gradient(right bottom, rgb(126,217,208) 24%, rgb(242,172,172) 54%, rgb(217,72,99) 71%);
+
+}
+#content {
+	height: auto;
+	width: 700px;
+	padding: 15px;
+	background-color: #F2E9BD;
+	margin-top: 4em;
+	margin-right: 4em;
+	margin-bottom: 4em;
+	margin-left: 13em;
+	border: thick ridge #7ED9D0;
+}

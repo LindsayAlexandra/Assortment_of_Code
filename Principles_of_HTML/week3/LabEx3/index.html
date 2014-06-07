@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+.gallerycontainer {
+	position: relative;/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+.thumbnail img {
+	border: 1px solid white;
+	margin: 0 5px 5px 0;
+}
+.thumbnail:hover {
+	background-color: transparent;
+}
+.thumbnail:hover img {
+	border: 1px solid blue;
+}
+.thumbnail span { /*CSS for enlarged image*/
+	position: absolute;
+	background-color: lightyellow;
+	padding: 5px;
+	left: -1000px;
+	border: 1px dashed gray;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+.thumbnail span img { /*CSS for enlarged image*/
+	border-width: 0;
+	padding: 2px;
+}
+.thumbnail:hover span { /*CSS for enlarged image*/
+	visibility: visible;
+	top: 0;
+	left: 230px; /*position where enlarged image should offset horizontally */
+	z-index: 50;
+}
+</style>
+<link href="lab3.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Croissant+One' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<h1>Vintage Favorites</h1>
+  <div class="gallerycontainer"> 
+  <a class="thumbnail" href="#thumb"><img src="redvintage_thumb.jpg" width="200" height="200" alt="Red Vintage Car" /><span><img src="redvintage_orig.jpg" width="500" height="500" alt="Red Vintage Car" /><br />
+    </span></a> 
+    <a class="thumbnail" href="#thumb"><img src="vinatgegas_thumb.jpg" width="200" height="200" alt="Vintage Gas Station" /><br />
+    <span><img src="vinatgegas_orig.jpg" width="500" height="500" alt="Vintage Gas Station" /><br />
+    </span></a> <br />
+    <a class="thumbnail" href="#thumb"><img src="vintagedoll_thumb.jpg" width="200" height="200" alt="Vintage Doll" /><span><img src="vintagedoll_orig.jpg" width="620" height="413" alt="Vintage Doll" /><br />
+    </span></a> 
+    <a class="thumbnail" href="#thumb">
+    <img src="vintageplane_thumb.jpg" width="200" height="200" alt="Vintage Plane" /><span><img src="vintageplane_orig.jpg" width="500" height="500" alt="Vintage Plane" /><br />
+    </span></a> 
+    <a class="thumbnail" href="#thumb"><img src="vintagetype_thumb.jpg" width="200" height="200" alt="Vintage Type Writer" /><span><img src="vintagetype_orig.jpg" width="500" height="500" alt="Vintage Type Writer" /><br />
+    </span></a> 
+    <a class="thumbnail" href="#thumb"><img src="vintagewedding_thumb.jpg" width="200" height="200" alt="Vintage Wedding Dress" /><span><img src="vintagewedding_orig.jpg" width="500" height="500" alt="Vintage Dress" /><br />
+</span></a>
+</div>
+</body>
+</html>

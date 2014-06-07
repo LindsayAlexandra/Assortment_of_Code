@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(white-flowers-background.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+div {
+	margin-top: 150px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 36px;
+}
+article
+{
+	position: fixed;
+	width: 80%;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	z-index: 0;
+	-webkit-transform-origin: 0 50%;
+	-moz-transform-origin: 0 50%;
+	-ms-transform-origin: 0 50%;
+	-o-transform-origin: 0 50%;
+	transform-origin: 0 50%;
+	padding-top: 30px;
+	padding-right: 15%;
+	padding-bottom: 30px;
+	padding-left: 18%;
+	background-image: url(1920x1080-flower-smiley-faces.jpg);
+	text-align: center;
+}
+
+article:after
+{
+	position: absolute;
+	content: ' ';
+	left: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-image: -webkit-linear-gradient(right, rgba(0,0,0,0.2) 0%, transparent 100%);
+	background-image: -moz-linear-gradient(right, rgba(0,0,0,0.2) 0%, transparent 100%);
+	background-image: -ms-linear-gradient(right, rgba(0,0,0,0.2) 0%, transparent 100%);
+	background-image: -o-linear-gradient(right, rgba(0,0,0,0.2) 0%, transparent 100%);
+	background-image: linear-gradient(right, rgba(0,0,0,0.2) 0%, transparent 100%);
+	pointer-events: none;
+}
+
+nav
+{
+	position: fixed;
+	left: -5em;
+	top: 0;
+	bottom: 0;
+	background-color: #F5C412;
+	box-shadow: 4px 0 5px rgba(0,0,0,0.2);
+	z-index: 1;
+	cursor: pointer;
+	border-right-width: 60px;
+	border-right-style: solid;
+	border-right-color: #8DA72C;
+}
+nav:after
+{
+	position: absolute;
+	content: ' ';
+	width: 0;
+	height: 0;
+	right: -70px;
+	top: 50%;
+	border-width: 15px 10px;
+	border-style: solid;
+	border-color: transparent transparent transparent #765;
+}
+
+nav ul
+{
+	width: 10em;
+	list-style-type: none;
+	padding: 1em;
+	text-align: left;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+article, article:after, nav, nav *
+{
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
+
+
+nav:hover
+{
+	left: 0;
+}
+
+nav:hover ~ article
+{
+	-webkit-transform: translateX(16em) perspective(600px) rotateY(30deg);
+	-moz-transform: translateX(16em) perspective(600px) rotateY(30deg);
+	-ms-transform: translateX(16em) perspective(600px) rotateY(30deg);
+	-o-transform: translateX(16em) perspective(600px) rotateY(30deg);
+	transform: translateX(16em) perspective(600px) rotateY(30deg);
+}
+
+nav:hover ~ article:after
+{
+	left: 60%;
+}
+.sidebar {
+}
+
+
+/*Navigation for assignments*/
+
+ul {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	padding: 0;
+	list-style: none;
+	margin-right: 50;
+	margin-bottom: 0;
+	float: right;
+}
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+li ul {
+    display: none;
+}
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 3px 3px 3px #333333;
+	padding: 5px 15px 5px 15px;
+	margin-left: 1px;
+	white-space: nowrap;
+	background-color: #7AB6E8;
+	box-shadow: 3px 3px 3px rgba(102,102,102,1);
+}
+ul li a:hover {
+	background-color: #81A311;
+}
+li:hover ul {
+	display: block;
+	position: absolute;
+}
+li:hover li {
+	float: none;
+	font-size: 12px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li:hover a {
+	background-color: #557000;
+}
+li:hover li a:hover {
+	background-color: #FBDB48;
+}

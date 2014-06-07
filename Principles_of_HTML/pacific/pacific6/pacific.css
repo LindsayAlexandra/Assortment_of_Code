@@ -1,0 +1,128 @@
+body {
+	background-color: #ffffff;
+	background-image: url(images/background.jpg);
+	color: #666666;
+	font-family: Veranda, Arail, sans-serif;
+}
+h1 {
+	background-color: #000033;
+	background-image: url(images/sunset.jpg);
+	color: #FFFFFF;
+	line-height: 200%;
+	font-family: Georgia, sans-serif;
+	margin-bottom: 0;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+nav {
+	float: left;
+	width: 160px;
+	font-weight: bold;
+	color: #000033;
+	font-size: 1.2em;
+	padding: 5px;
+	background-color: rgba(144,199,227,1);
+	height: 300px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: #000033;
+}
+span {
+	color: #000033;
+	font-weight: bold;
+}
+
+h2 {
+	color: #3399CC;
+	font-family: Georgia, sans-serif;
+	padding-left: 5px;
+}
+.pacific {
+	margin-left: 38em;
+	padding-bottom: 8px;
+	margin-top: -16em;
+	padding-left: 10px;
+
+
+}
+
+img {
+	padding-left: 5px;
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-size: .70em;
+	font-style: italic;
+	text-align: center;
+	padding: 10px;
+}
+#wrapper {
+	width: 975px;
+	background-color: #90C7E3;
+	margin-right: auto;
+	margin-left: auto;
+	-moz-box-shadow: 3px 3px 5px 6px #666;
+	-webkit-box-shadow: 3px 3px 5px 6px #666;
+	box-shadow: 3px 3px 5px 6px #666;
+}
+h3 {
+	color: #000033;
+	padding-left: 5px;
+}
+.p {
+	padding-left: 5px;
+}
+#content {
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 965px;
+}
+#content figure {
+	margin: 0;
+	float: left;
+	padding-right: 20px;
+}
+.clear {
+	clear: left;
+	margin-left: 13em;
+	padding-top: 12px;
+	margin-top: 3px;
+	padding-left: 5px;
+}
+#content ul {
+	list-style-position: inside;
+}
+header, navm figure, footer {
+		display: block;
+	}#content p {
+	text-align: justify;
+}
+.practice {
+	width: 600px;
+	margin-top: 2em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	margin-left: 25em;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+
+}
+ul.pacific {
+	margin-top: -25px;
+}
+.pacific1 {
+	padding-left: 10px;
+	margin-left: 5px;
+}

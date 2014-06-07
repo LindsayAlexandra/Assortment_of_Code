@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 900px;
+	height: 500px;
+	background-color: #33CC99;
+}
+#wrapper {
+	height: 900px;
+	width: 900px;
+	border: thick double rgba(0,204,255,1);
+	box-shadow: 0 0 8px 2px rgba(0,204,255,1);
+	margin-top: 100px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 10em;
+	padding: 10px;
+	background-color: #0099CC;
+}
+h1 {
+	font-family: Risque, cursive;
+	text-shadow: 1px 1px 0 #91CCD9;
+	font-size: 72px;
+	font-style: italic;
+	font-weight: bolder;
+	vertical-align: middle;
+	height: 50px;
+	width: 600px;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 10px;
+}
+h2 {
+	color: rgba(255,51,102,1);
+	margin-left: 15em;
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+}
+#content {
+	font-family: 'Nunito', sans-serif;
+	background-color: #B8D3D9;
+	box-shadow: 0 0 8px 2px rgba(234,15,54,1);
+	color: rgba(0,0,0,1);
+	width: 800px;
+	height: auto;
+	padding: 10px;
+	border: 1px groove rgba(234,15,54,1);
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 140px;
+}
+img {
+	box-shadow: 1px 1px 8px 2px rgba(234,15,54,1);
+	margin-left: 30px;
+}
+#hobbies {
+	font-family: Milonga, cursive;
+	color: rgba(0,0,153,1);
+}
+ul#navlist {
+	font-family: sans-serif;
+	margin-left: 5em;
+}
+ul#navlist a {
+	font-weight: bold;
+	text-decoration: none;
+}
+ul#navlist, ul#navlist ul, ul#navlist li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+ul#navlist li {
+	float: left;
+}
+ul#navlist li a {
+	color: #66CCFF;
+	background-color: #233540;
+	padding: 3px;
+	border: 1px #666  outset;
+}
+ul#navlist li a:hover {
+	color: #233540;
+	background-color: #FF3366;
+}
+ul#navlist li a:active {
+	color: #cccccc;
+	background-color: #003366;
+	border: 1px #ffffff inset;
+}
+ul#subnavlist {
+	display: none;
+}
+ul#subnavlist li {
+	float: none;
+}
+ul#subnavlist li a {
+	padding: 0px;
+	margin: 0px;
+}
+ul#navlist li:hover ul#subnavlist {
+	display: block;
+	position: absolute;
+	font-size: 8pt;
+	padding-top: 5px;
+}
+ul#navlist li:hover ul#subnavlist li a {
+	display: block;
+	width: 10em;
+	border: none;
+	padding: 2px;
+}
+ul#navlist li:hover ul#subnavlist li a:before {
+	content: " >> ";
+}
