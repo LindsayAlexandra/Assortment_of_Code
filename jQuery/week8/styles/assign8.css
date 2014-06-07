@@ -1,0 +1,36 @@
+/* File Name: week8.css
+Date: 11/19/13
+Programmer: Lindsay Dealy */
+
+body {
+	font-family: tahoma, verdana, sans-serif;
+	font-size: 16px;
+	line-height:1.5;
+	background-color: #D7F2AD;
+}
+
+/* Chapter 7 styles */
+
+#ajax-header		{ margin: 40px 0 0 0; }
+#ajax-header h1		{ color:#265428;margin:0 0 10px 0;padding:0; }
+
+#nav			{ background:#21140f;margin:0;padding:0;overflow:hidden;zoom:1; }
+#nav li		{ list-style-type:none;margin:0;padding:10px 20px;display:block;float:left; }
+#nav a,
+#nav a:link,
+#nav a:visited	{ color: #eee8d5; }
+#nav a:hover,
+#nav a:active	{ color: #82AB5F; }
+#main			{ float:left;width:60%; }
+#side-col			{ float:right;width:35%; }
+.widget				{ border:2px solid #82AB5F;margin:10px 0; }
+.widget h4			{ margin:0 0 10px 0;padding:10px;background:#82AB5F;color:#FDF7E2; }
+.widget li 			{ list-style-type: none; list-style-image:none;}
+.float-right		{ float:right;margin:0 0 10px 10px; }
+.float-left			{ float:left;margin:0 10px 10px 0; }
+.source				{ font-size:12px; }
+#ajax-foot			{ clear:both;margin:10px 0 40px 0;padding:5px;background:#21140F;color:#f3f6e3; }
+#ajax-foot p		{ margin:0;padding:0;font-size:12px;}
+h1 {color: #26548; margin 0 0 10px 0;padding:0;}
+h2 {color: #26548;}
+

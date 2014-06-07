@@ -1,0 +1,14 @@
+/* File Name: week7.css
+Date: 11/09/13
+Programmer: Lindsay Dealy */
+
+
+/* CSS for Chapter 10 Example 1 */
+
+#credits	{ border-top:1px solid #eee8d5;margin:30px 10px 10px 10px;padding:10px; }
+#credits p	{ font-size:12px;margin:0;padding:0; }
+.jcarousel-skin-tango .jcarousel-item	{ width:200px;height:150px; }
+.jcarousel-skin-tango .jcarousel-clip-horizontal	{ width:830px;height:150px; }
+.jcarousel-skin-tango .jcarousel-container-horizontal	{ width:830px; }
+.jcarousel-skin-tango .jcarousel-prev-horizontal,
+.jcarousel-skin-tango .jcarousel-next-horizontal	{ top:75px; }

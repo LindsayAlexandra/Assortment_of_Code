@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("reset.css");
+
+/*General Selectors*/
+
+body {
+		font-size: 100%;
+		}
+h1 {
+	color: #4A2F3D;
+	font-size: 2em;
+	margin-bottom: 5px;
+	text-shadow: 0px 1px 0px #fff;
+	font-family: 'Varela', sans-serif;
+}
+h2 {
+	color: #ddc4d2;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin: 1em 0.5em 0; 
+	text-shadow: 0px 1px 0px #000;
+	font-family: 'Varela', sans-serif;
+}
+p {
+	font-size: 1em;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 1.25em;
+}
+li, a {
+		font-family: Tahoma, Geneva, sans-serif;
+}
+em {
+	font-style: italic;
+}
+table {
+	width: 80%;
+	}
+th {
+	font-family: Varela, Arial, Helvetica, sans-serif;
+	background-color: #482D3C;
+	color: #B07995;
+	font-weight: normal;
+	font-size: 0.9em;
+	}
+th,td {
+	text-align: center;
+	padding: 5px;
+	vertical-align: middle;
+	border: 1px solid #482D3C;
+	}
+td {
+	color: #DDC4D2;
+	font-size: 0.75em;
+	}
+li,a,td {
+	
+	}
+
+
+#topupperbar {
+			background-color: #DED400;
+			height: 10px;
+			width: 100%;
+}
+#toplowerbar {
+			background-color: #745577;
+			height: 10px;
+			width: 100%;
+}
+#mainblock {
+		background-image: url(images/nifty-map.png);
+		background-repeat: repeat;
+		width: 100%;
+}
+
+.centerwrap {
+			position: relative;
+			width: 960px;
+			margin: 0 auto;
+			padding: 0 0 20px 0;
+}
+		
+header {
+		padding: 20px 0 220px 0;
+		width: 100%;
+}
+
+/*Navigation Selectors*/
+
+nav {
+	float: left;
+	width: 450px;
+	margin-top: 90px;
+	border-top-width: 2px;
+	border-top-style: inset;
+	border-top-color: #fff;
+	border-bottom-width: 2px;
+	border-bottom-style: outset;
+	border-bottom-color: #fff;
+}
+nav ul {
+		background-image: url(images/nav-button-fill.jpg);
+}
+nav li {
+		margin: 0 .25em 0 .25em;
+		list-style-type: none;
+		font-family: 'Varela', sans-serif;
+		font-weight: bold;
+}
+nav li a {
+		font-size: 0.75em;
+		text-decoration: none;
+		padding: .25em .35em .25em .35em;
+		width: 100%;
+		transition: all 0.3s ease-in-out 0s;
+		transition-property: all;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-in-out;
+		transition-delay: 0s;
+}
+nav ul.level1 li {
+				position: relative;
+				padding: .3em .3em .3em 0;
+				float: left;
+				text-transform: uppercase;
+				text-shadow: 0px 1px 0px #fff;
+}
+nav ul.level2 li {
+				text-transform: none;
+}
+nav ul.level3 li {
+				text-transform: none;
+}
+nav ul a:link, nav ul a:visited {
+						color: #482d3c;
+}
+nav ul a.current:link, nav ul a.current:visited {
+				color: #aea600;
+				text-shadow: 0px 1px 0px #fff;
+}
+nav ul a:hover, nav ul a:active {
+						color: #ddc4d2;
+						text-shadow: 0px 1px 0px #000;
+}
+nav ul a.current:hover, nav ul a.current:active {
+				color: #aea600;
+				text-shadow: 0px 1px 0px #fff;
+}
+nav ul ul {
+			display: none;
+}
+nav ul ul li {
+			width: 100%;
+}
+nav ul ul.level2 li a, nav ul ul ul.level3 li a {
+				padding: 0 .3em 0 .3em;
+}
+nav ul.level1 li.submenu:hover ul.level2 {
+				position: absolute;
+				display: block;
+				width: 120%;
+				top: 1.5em;
+				left: 0.25em;
+}
+nav ul.level2 li.submenu:hover ul.level3 {
+				position: absolute;
+				display: block;
+				width: 7em;
+				left: 3em;
+				top: 20px;
+				text-align: left;
+} 
+nav ul.level2 li a,nav ul.level3 li a {
+				display: block;
+}
+/*Navigation Ends*/
+#logo {
+		float: left;
+}
+#action {
+		float: left;
+		margin: 90px 0 0 0;
+		padding: 1px 10px 4px 20px;
+		border-top: inset 2px #fff;
+		border-bottom: outset 2px #fff;
+		width: 240px; 
+}
+
+/*Descendants*/
+
+#action p {
+		text-shadow: 0px 1px 0px #fff;
+}
+#action a {
+		font-size: 0.9em;
+		text-decoration: none;
+		padding: 1.25em .25em 1.25em .25em;
+		width: 100%;
+		transition: all 0.3s ease-in-out 0s;
+		transition-property: all;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-in-out;
+		transition-delay: 0s;
+		font-weight: bold;
+}
+#action a:link, #action a:visited {
+		color: #482d3c;
+}
+#action a:hover, #action a:active {
+		color: #ddc4d2;
+}
+#about {
+	float: left;
+	width: 400px;
+	clear: both;
+}
+#about p {
+		margin-bottom: 12px;
+}
+#about li {
+		margin-left: 25px;
+		margin-top: 10px;
+		list-style-image: url(images/compass-bullet.png);
+}
+#about hr {
+		width: 200px;
+		height: 2px;
+		border-width: 0;
+		color: gray;
+		background-color: gray;
+		margin-top: 20px;
+		margin-right: auto;
+		margin-bottom: 20px;
+		margin-left: auto;
+		padding-right: 50px;
+}
+#slideshow {
+		float: right;
+		margin: 0 0 30px 0;
+		width: 522px;
+		height: 350px;
+}
+#midbar {
+		width: 100%;
+		height: 10px;
+		background-color: #ded400;
+		clear: both;	
+}
+#midtextblock {
+		background-color: #745577;
+		width: 100%;
+}
+#midtextblock p {
+		color: #ddc4d2;
+}
+#tours {
+		float: left;
+		clear: both;
+		margin: 0 0 40px 0;
+		width: 30%;
+}
+#tours a, #special a, #quote a {
+		text-decoration: none;
+		transition: all 0.3s ease-in-out 0s;
+		transition-property: all;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-in-out;
+		transition-delay: 0s;
+}
+#tours a:link, #special a:link, #quote a:link {
+		color: #aea600;
+}
+#tours a:visited, #special a:visited, #quote a:visited {
+		color: #aea600;
+}
+#tours a:hover, #special a:hover, #quote a:hover {
+		color: #ccc;
+}
+#special {
+		float: left;
+		clear: both;
+		/*margin: 0 5% 40px 5%;
+		width: 30%;*/
+}
+#quote {
+		float: right;
+		clear: both;
+		/*margin: 0 0 40px 0;
+		width: 30%;*/
+}
+#footerbar {
+			background-color: #482d3c;
+			width: 100%;
+}
+footer {
+	width: 100%;
+}
+#social {
+		float: left;
+		margin: 35px 0;
+}
+#social img {
+		float: left;
+}
+#social span {
+		float: left;
+		margin-top: 7px;
+		margin-right: 20px;
+}
+#social a {
+		font-size: 0.75em;
+		text-transform: uppercase;
+		text-decoration: none;
+		width: 100%;
+		transition: all 0.3s ease-in-out 0s;
+		transition-property: all;
+		transition-duration; 0.3s;
+		transition-timing-function: ease-in-out;
+		transition-delay: 0s;
+		padding-top: 0.25em;
+		padding-right: 0.35em;
+		padding-bottom: 0.25em;
+		padding-left: 0em;
+		margin-bottom: 10px;
+}
+#social a:link, #social a:visited {
+		color: #b07995;
+}
+#socail a:hover, #social a:active {
+		color: #fff;
+}
+#copyright {
+			float: right;
+			margin: 30px 0 35px 0;
+}
+#copyright p {
+		color: #b07995;
+		text-align: right;
+		font-size: 0.75em;
+}
+.emphasized {
+			color: #aea600;
+			font-size: 1em;
+			font-weight: bold;
+}
+.daytrips {
+	width: 27%;
+	margin: 0 0 0 3%
+	}
+.tourvideo {
+	width: 360px;
+	}
+.homespecial {
+	width: 30%;
+	margin: 0 5% 0 5%;
+	}
+.otherservices {
+	float: right;
+	width: 60%;
+	margin-left: 5%;
+	}
+.contactspecial {
+	float: right;
+	width: 65%;
+	margin-left: 5%;
+	}
+.homequote {
+	width: 30%;
+	}
+
+
+/*Tool Box Selectors*/
+
+.clearit { clear: both; }
+.rightit { text-align: right; }
+.centerit {
+	text-align: center;
+	clear: both;
+}
+.removeit { display: none; }
+.includeit { display: block; }
+.hideit { visibility: hidden; }
+.showit { visibility: visible;   }
