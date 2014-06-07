@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+html {}
+
+/*General Selectors*/
+body {
+	height: auto;
+	width: 1200px;
+	background-color: rgba(208,249,117,1);
+}
+
+header {
+	height: 50px;
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-variant: small-caps;
+	font-size: 16px;
+	margin-top: 10px;
+	padding-top: 10px;
+	letter-spacing: 0.5em;
+	width: 750px;
+	font-weight: normal;
+	text-shadow: 3px 3px 3px rgba(110,168,56,1);
+	margin-left: 5em;
+	vertical-align: middle;
+	color: rgba(0,0,0,1);
+}
+
+img {
+	margin: 5px;
+	text-align: center;
+
+}
+table {
+	margin-left: 10em;
+}
+
+td {}
+
+h3 {
+	text-align: center;
+	padding: 3px;
+	margin: 3px;
+}
+
+p {
+	width: 200px;
+	height: auto;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 12px;
+	text-align: justify;
+}
+
+
+footer {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	font-variant: small-caps;
+	color: rgba(0,0,0,1);
+	text-align: center;
+	font-size: 16px;
+	height: 40px;
+	width: 750px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 5em;
+	padding-top: 10px;
+}
+
+/*ID*/
+#content {
+	text-align: center;
+	width: auto;
+	height: auto;
+	margin-left: 13em;
+
+}
+
+#leaf {
+	width: 850px;
+
+
+}
+
+#grapes {
+	width: 850px;
+}
+
+#monk {
+	width: 850px;
+}
+
+
+/*#footer {
+	letter-spacing: .5em;
+	height: 50px;
+	width: auto;
+	text-align: center;
+	color: rgba(110,168,56,1);
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-left: 22em;
+}*/
+
+/*classes*/
+
+
+
+/*links*/
+
+a {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 24px;
+	color: rgba(110,168,56,1);
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: rgba(102,102,102,1);
+}
+a:hover {
+	text-decoration: underline;
+	color: rgba(102,0,0,1);
+	letter-spacing: .5em;
+	word-spacing: .5em;
+}
+a:active {
+	text-decoration: none;
+}

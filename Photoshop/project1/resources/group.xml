@@ -1,0 +1,406 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<mediaGroup>
+	<groupInfo>
+		<identifier>bluefire.adobe.gallery1</identifier>
+		<thumbnailPath src='gallerythumb.jpg' />
+		<previewPath src='' />
+		<galleryName>project1</galleryName>
+		<galleryDescription>First lesson in Photoshop Summer Term 2013.</galleryDescription>
+		<galleryVersion>1.0</galleryVersion>
+		<x:xmpmeta xmlns:x='adobe:ns:meta/' >
+			<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' >
+				<rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="" >
+					<dc:creator>
+						<rdf:Seq>
+							<rdf:li>Adobe Systems</rdf:li>
+						</rdf:Seq>
+					</dc:creator>
+					<dc:date>2006-05-23T12:00-00:00</dc:date>
+				</rdf:Description>
+				<rdf:Description xmlns:xap="http://ns.adobe.com/xap/1.0/" rdf:about="" >
+					<xap:CreatorTool>Adobe Bridge CS6</xap:CreatorTool>
+				</rdf:Description>
+			</rdf:RDF>
+		</x:xmpmeta>
+		<windowSize x='auto' y='auto' />
+		<category>Web Photo Gallery</category>
+		<styleNS url="adobe.com/schemas/webphotogallery1" />
+		<windowSize width='auto' height='auto' />
+		<custom>
+			<siteTitle>Project1 - Applied Different Filters to the Same Image</siteTitle>
+			<groupTitle>Lindsay Dealy</groupTitle>
+			<groupDescription>First lesson in Photoshop Summer Term 2013.</groupDescription>
+			<contactName>Lindsay Dealy</contactName>
+			<contactEmail>mailto:lindsay.dealy15@pcc.edu</contactEmail>
+		</custom>
+	</groupInfo>
+
+	<sizes>
+		<imageSize size='large' maxwidth='675' maxheight='675' />
+		<imageSize size='medium' maxwidth='450' maxheight='450' />
+		<imageSize size='thumb' maxwidth='48' maxheight='48' />
+	</sizes>
+
+	<media>
+	<item>
+		<title>original.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_color-pencil.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_color-pencil.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_color-pencil.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_color-pencil.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_cutout.jpeg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_cutout.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_cutout.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_cutout.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_dry-brush.jpeg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_dry-brush.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_dry-brush.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_dry-brush.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_film-grain.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_film-grain.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_film-grain.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_film-grain.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_fresco.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_fresco.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_fresco.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_fresco.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_paint-daubs.jpeg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_paint-daubs.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_paint-daubs.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_paint-daubs.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_plastic-wrap.jpeg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_plastic-wrap.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_plastic-wrap.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_plastic-wrap.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_rough-pastels.jpeg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_rough-pastels.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_rough-pastels.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_rough-pastels.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_smudge-stick.jpeg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_smudge-stick.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_smudge-stick.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_smudge-stick.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_sponge.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_sponge.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_sponge.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_sponge.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_artistic_watercolor.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_artistic_watercolor.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_artistic_watercolor.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_artistic_watercolor.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_brush-strokes_accented_edges.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_brush-strokes_accented_edges.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_brush-strokes_accented_edges.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_brush-strokes_accented_edges.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_brush-strokes_angled-strokes.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_brush-strokes_angled-strokes.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_brush-strokes_angled-strokes.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_brush-strokes_angled-strokes.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_brush-strokes_crosshatch.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_brush-strokes_crosshatch.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_brush-strokes_crosshatch.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_brush-strokes_crosshatch.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_brush-strokes_glass.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_brush-strokes_glass.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_brush-strokes_glass.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_brush-strokes_glass.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_brush-strokes_ink-outlines.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_brush-strokes_ink-outlines.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_brush-strokes_ink-outlines.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_brush-strokes_ink-outlines.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_brush-strokes_ocean-ripple.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_brush-strokes_ocean-ripple.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_brush-strokes_ocean-ripple.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_brush-strokes_ocean-ripple.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_brush-strokes_spatter.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_brush-strokes_spatter.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_brush-strokes_spatter.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_brush-strokes_spatter.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_brush-strokes_sprayed-strokes.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_brush-strokes_sprayed-strokes.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_brush-strokes_sprayed-strokes.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_brush-strokes_sprayed-strokes.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_sketch_graphic-pen.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_sketch_graphic-pen.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_sketch_graphic-pen.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_sketch_graphic-pen.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_sketch_halftone-pattern.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_sketch_halftone-pattern.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_sketch_halftone-pattern.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_sketch_halftone-pattern.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_texture_craquelure.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_texture_craquelure.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_texture_craquelure.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_texture_craquelure.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>original_texture_texturizer.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/original_texture_texturizer.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/original_texture_texturizer.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/original_texture_texturizer.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	</media>
+</mediaGroup>

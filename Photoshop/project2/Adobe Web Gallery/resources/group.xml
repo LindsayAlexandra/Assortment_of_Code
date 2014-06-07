@@ -1,0 +1,571 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<mediaGroup>
+	<groupInfo>
+		<identifier>bluefire.adobe.gallery1</identifier>
+		<thumbnailPath src='gallerythumb.jpg' />
+		<previewPath src='' />
+		<galleryName>Adobe Web Gallery</galleryName>
+		<galleryDescription>Web Photo Gallery created by Adobe Bridge</galleryDescription>
+		<galleryVersion>1.0</galleryVersion>
+		<x:xmpmeta xmlns:x='adobe:ns:meta/' >
+			<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' >
+				<rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="" >
+					<dc:creator>
+						<rdf:Seq>
+							<rdf:li>Adobe Systems</rdf:li>
+						</rdf:Seq>
+					</dc:creator>
+					<dc:date>2006-05-23T12:00-00:00</dc:date>
+				</rdf:Description>
+				<rdf:Description xmlns:xap="http://ns.adobe.com/xap/1.0/" rdf:about="" >
+					<xap:CreatorTool>Adobe Bridge CS6</xap:CreatorTool>
+				</rdf:Description>
+			</rdf:RDF>
+		</x:xmpmeta>
+		<windowSize x='auto' y='auto' />
+		<category>Web Photo Gallery</category>
+		<styleNS url="adobe.com/schemas/webphotogallery1" />
+		<windowSize width='auto' height='auto' />
+		<custom>
+			<siteTitle>Project 2</siteTitle>
+			<groupTitle>My Photographs - Nephew</groupTitle>
+			<groupDescription>Web Photo Gallery created by Adobe Bridge</groupDescription>
+			<contactName>Contact name</contactName>
+			<contactEmail>mailto:user@domain.com</contactEmail>
+		</custom>
+	</groupInfo>
+
+	<sizes>
+		<imageSize size='large' maxwidth='675' maxheight='675' />
+		<imageSize size='medium' maxwidth='450' maxheight='450' />
+		<imageSize size='thumb' maxwidth='48' maxheight='48' />
+	</sizes>
+
+	<media>
+	<item>
+		<title>nephew.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_auto-color.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_auto-color.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_auto-color.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_auto-color.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_auto-contrast.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_auto-contrast.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_auto-contrast.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_auto-contrast.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_auto-tone.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_auto-tone.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_auto-tone.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_auto-tone.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_blackandwhite.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_blackandwhite.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_blackandwhite.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_blackandwhite.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_brightness-contrast_brightness.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_brightness-contrast_brightness.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_brightness-contrast_brightness.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_brightness-contrast_brightness.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_brightness-contrast_contrast.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_brightness-contrast_contrast.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_brightness-contrast_contrast.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_brightness-contrast_contrast.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_channel-mixer.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_channel-mixer.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_channel-mixer.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_channel-mixer.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_color-balance.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_color-balance.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_color-balance.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_color-balance.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_color-lookup_bleach-bypass.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_color-lookup_bleach-bypass.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_color-lookup_bleach-bypass.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_color-lookup_bleach-bypass.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_color-match_nephew-infant.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_color-match_nephew-infant.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_color-match_nephew-infant.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_color-match_nephew-infant.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_curves_auto.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_curves_auto.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_curves_auto.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_curves_auto.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_curves.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_curves.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_curves.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_curves.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_desaturate.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_desaturate.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_desaturate.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_desaturate.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_equalize.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_equalize.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_equalize.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_equalize.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_exposure.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_exposure.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_exposure.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_exposure.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_gradient-map_grayscale.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_gradient-map_grayscale.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_gradient-map_grayscale.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_gradient-map_grayscale.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_hdr-toning.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_hdr-toning.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_hdr-toning.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_hdr-toning.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_hue-saturation_hue.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_hue-saturation_hue.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_hue-saturation_hue.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_hue-saturation_hue.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_hue-saturation_lightness.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_hue-saturation_lightness.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_hue-saturation_lightness.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_hue-saturation_lightness.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_hue-saturation_saturation.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_hue-saturation_saturation.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_hue-saturation_saturation.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_hue-saturation_saturation.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_invert.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_invert.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_invert.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_invert.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_levels_auto.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_levels_auto.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_levels_auto.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_levels_auto.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_levels.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_levels.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_levels.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_levels.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_photo-filter.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_photo-filter.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_photo-filter.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_photo-filter.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_posterize.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_posterize.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_posterize.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_posterize.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_replace-color.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_replace-color.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_replace-color.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_replace-color.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_selective-color.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_selective-color.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_selective-color.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_selective-color.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_shadows-highlights.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_shadows-highlights.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_shadows-highlights.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_shadows-highlights.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_threshold.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_threshold.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_threshold.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_threshold.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_variations.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_variations.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_variations.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_variations.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_vibrance_saturation.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_vibrance_saturation.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_vibrance_saturation.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_vibrance_saturation.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew_vibrance.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew_vibrance.jpg' height='506' width='675' size='large' />
+			<rendition src='images/medium/nephew_vibrance.jpg' height='337' width='450' size='medium' />
+			<rendition src='images/thumb/nephew_vibrance.jpg' height='36' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew-infant_color-match_nephew.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew-infant_color-match_nephew.jpg' height='504' width='675' size='large' />
+			<rendition src='images/medium/nephew-infant_color-match_nephew.jpg' height='336' width='450' size='medium' />
+			<rendition src='images/thumb/nephew-infant_color-match_nephew.jpg' height='35' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	<item>
+		<title>nephew-infant.jpg</title>
+		<description />
+		<metadata></metadata>
+		<photographer></photographer>
+		<copyright></copyright>
+		<imageId image='' dbtype='' dbname='' />
+		<mediaType category='image' format='jpeg' />
+		<renditions>
+			<rendition src='images/large/nephew-infant.jpg' height='504' width='675' size='large' />
+			<rendition src='images/medium/nephew-infant.jpg' height='336' width='450' size='medium' />
+			<rendition src='images/thumb/nephew-infant.jpg' height='35' width='48' size='thumb' />
+		</renditions>
+	</item>
+
+	</media>
+</mediaGroup>

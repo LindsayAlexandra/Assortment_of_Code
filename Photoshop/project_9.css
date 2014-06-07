@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: rgba(117,132,255,1);
+}
+
+header {
+	text-align: center;
+	padding: 5px;
+	height: 605px;
+	width: 605px;
+	margin-top: 2.8em;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 2.8em;
+}
+
+table {
+	height: 350px;
+	width: 650px;
+	text-align: center;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 1.5pc;
+}
+
+p {
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 48px;
+	font-variant: small-caps;
+	color: rgba(255,255,102,1);
+	font-weight: bolder;
+	text-shadow: 3px 3px 3px #999999;
+}
+
+footer {
+	height: 150px;
+	width: 575px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 3.5em;
+	text-align: center;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#content {
+	height: 1200px;
+	width: 700px;
+	padding: 10px;
+	margin-left: 23em;
+	background-color: rgba(53,4,109,1);
+}
